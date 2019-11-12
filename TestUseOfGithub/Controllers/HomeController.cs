@@ -29,6 +29,11 @@ namespace TestUseOfGithub.Controllers
             return View();
         }
 
+        public IActionResult displayflower()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
